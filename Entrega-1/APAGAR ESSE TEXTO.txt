@@ -1,0 +1,15 @@
+B
+Possui o número de passos a serem executados
+
+toda mudança de estado é 1 passos
+
+quantos passos eu dei é menor do que eu tenho que dar
+
+toda vez que muda de luz -> um passo
+
+
+if en
+    if -> ftopCounter _ day
+
+    else
+    -= delay
