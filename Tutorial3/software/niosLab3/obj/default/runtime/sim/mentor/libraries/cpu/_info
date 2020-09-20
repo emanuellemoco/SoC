@@ -1,0 +1,560 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/software/niosLab3/obj/default/runtime/sim/mentor
+vniosLab2_nios2_gen2_0_cpu
+Z1 !s110 1600639611
+!i10b 1
+!s100 kGL?Rojg3XI_H]BW>7>9X0
+ID8JAd6o3E`lnRD0LL>ALb2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1600636256
+Z4 8/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu.v
+Z5 F/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu.v
+L0 2834
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1600639611.000000
+Z8 !s107 /home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu.v|
+Z9 !s90 -reportprogress|300|/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu.v|-work|cpu|
+!i113 1
+Z10 o-work cpu
+Z11 tCvgOpt 0
+nnios@lab2_nios2_gen2_0_cpu
+vniosLab2_nios2_gen2_0_cpu_debug_slave_sysclk
+R1
+!i10b 1
+!s100 JTLoTLXk@MgRlL<@cnTkA2
+IZD0Bzgimgf@]7[kToTEfL2
+R2
+R0
+R3
+8/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_sysclk.v
+F/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_sysclk.v
+Z12 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_debug_slave_sysclk
+vniosLab2_nios2_gen2_0_cpu_debug_slave_tck
+!s110 1600639612
+!i10b 1
+!s100 DH3`G<aOKO=8B:b48ll^60
+IS[NDKV;@[XY30VP4TQ_L60
+R2
+R0
+R3
+8/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_tck.v
+F/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_tck.v
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_debug_slave_tck
+vniosLab2_nios2_gen2_0_cpu_debug_slave_wrapper
+R1
+!i10b 1
+!s100 2_zNoEMWDZ[hgYkk`L4m=3
+I6EXk_cj7bi<W1`bo]jLIG2
+R2
+R0
+R3
+8/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_wrapper.v
+F/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_debug_slave_wrapper
+vniosLab2_nios2_gen2_0_cpu_nios2_avalon_reg
+R1
+!i10b 1
+!s100 1Q@Rd4DRS:InS?H^eXA2Z1
+I4Z;:dooJ^ZHGfPHfOhcen0
+R2
+R0
+R3
+R4
+R5
+L0 2023
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_avalon_reg
+vniosLab2_nios2_gen2_0_cpu_nios2_oci
+R1
+!i10b 1
+!s100 MjDDQSS@KcgYPWYK4McIX3
+I6[<GBBJ6SMGT7k:EhGHkW1
+R2
+R0
+R3
+R4
+R5
+L0 2362
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_break
+R1
+!i10b 1
+!s100 2B>flA?mkHf;W0P;[?`a81
+IcBVPN7g@cFcQJo9NQ0gef0
+R2
+R0
+R3
+R4
+R5
+L0 295
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_break
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R1
+!i10b 1
+!s100 1KNF8bHKL=PKiUh_B9AA;2
+IgM_eHD[nIbWFRQ3f=FXbj0
+R2
+R0
+R3
+R4
+R5
+L0 1265
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_dbrk
+R1
+!i10b 1
+!s100 0bjEWOdC4S_7FYQ7JM9ff1
+IZFa>eI^28IF6zSDk^6QhW1
+R2
+R0
+R3
+R4
+R5
+L0 795
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_dbrk
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_debug
+R1
+!i10b 1
+!s100 ezB@mYiZ<Ec;<62S0aSoM1
+Iz:NjWC>e4J<AiP]1X=HBk1
+R2
+R0
+R3
+R4
+R5
+L0 153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_debug
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_dtrace
+R1
+!i10b 1
+!s100 T86_EH<>B1JI7SMBS:R@o1
+IKG9VJSS`W=;ocUL@Wo[N=1
+R2
+R0
+R3
+R4
+R5
+L0 1183
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_dtrace
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_fifo
+R1
+!i10b 1
+!s100 5=H:]O^l1D[jP[[^8NA952
+IKN3b1i1Xhac7QQhcbX@lZ1
+R2
+R0
+R3
+R4
+R5
+L0 1427
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_fifo
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R1
+!i10b 1
+!s100 <aQCzEPkeKIJAD:7^6gGz1
+ILYfo<__M<;;XTcOCQVA=L1
+R2
+R0
+R3
+R4
+R5
+L0 1380
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R1
+!i10b 1
+!s100 2Vmk=EzJ3z[??A9Gk:gN_3
+IchN0o^QVafL0f]cVgLMBF2
+R2
+R0
+R3
+R4
+R5
+L0 1337
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_im
+R1
+!i10b 1
+!s100 1lznm=QeBYfI;NJHV=VY53
+I4o99YzmjMRf7idYnoe;`n2
+R2
+R0
+R3
+R4
+R5
+L0 1936
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_im
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_itrace
+R1
+!i10b 1
+!s100 =aF?SQf7DL?N^N5nJ1?m03
+IQk_TIVbl`TFhFnSIU?`Gc1
+R2
+R0
+R3
+R4
+R5
+L0 982
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_itrace
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_pib
+R1
+!i10b 1
+!s100 _G3Zf009=IYE8j[aE]k040
+I7idgWgXllFI9]=Xn_4eXT1
+R2
+R0
+R3
+R4
+R5
+L0 1913
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_pib
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_td_mode
+R1
+!i10b 1
+!s100 R[V3P9Z6C22SE9;4oXaYL2
+Imh7=24jDJ>PN^d^eS4iHc1
+R2
+R0
+R3
+R4
+R5
+L0 1115
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_td_mode
+vniosLab2_nios2_gen2_0_cpu_nios2_oci_xbrk
+R1
+!i10b 1
+!s100 7_;ki5X1;`I8>X0>ZA<M^1
+IBDII_Yji_@5zIi`hZI07:2
+R2
+R0
+R3
+R4
+R5
+L0 588
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_oci_xbrk
+vniosLab2_nios2_gen2_0_cpu_nios2_ocimem
+R1
+!i10b 1
+!s100 UGKgTS8NC76WnJgC2P>E?2
+IH[lTk9ld1?SNgO3Nk7P@n1
+R2
+R0
+R3
+R4
+R5
+L0 2181
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_ocimem
+vniosLab2_nios2_gen2_0_cpu_nios2_performance_monitors
+R1
+!i10b 1
+!s100 `O0A6e^jCAm1N`Y[@F0_C2
+IPPn4;`07=1?XNGMkE0GYK1
+R2
+R0
+R3
+R4
+R5
+L0 2006
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_nios2_performance_monitors
+vniosLab2_nios2_gen2_0_cpu_ociram_sp_ram_module
+R1
+!i10b 1
+!s100 UdeeTf?m<1GUTIRd7i9R`2
+I<V<jk94TJzO@g[2iVOQnQ3
+R2
+R0
+R3
+R4
+R5
+L0 2116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_ociram_sp_ram_module
+vniosLab2_nios2_gen2_0_cpu_register_bank_a_module
+R1
+!i10b 1
+!s100 USkYW0S?B4zfU]<::07?71
+IYiBAkO1g`H?dD0CM_P5^=0
+R2
+R0
+R3
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_register_bank_a_module
+vniosLab2_nios2_gen2_0_cpu_register_bank_b_module
+R1
+!i10b 1
+!s100 Y<ZhRz^H6bNCYK4JlE`=?1
+I[Ck4m<l5XJ9lLgEgRh@<k2
+R2
+R0
+R3
+R4
+R5
+L0 87
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_register_bank_b_module
+vniosLab2_nios2_gen2_0_cpu_test_bench
+R1
+!i10b 1
+!s100 k1F1ZhmGUlRI@`T1_;bcF3
+IbnKEN:L6>S3R>DH]Xo<h>2
+R2
+R0
+R3
+8/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_test_bench.v
+F/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_test_bench.v
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|/home/labarqcomp/Desktop/INSPER/SoC/Tutorial3/niosLab2/simulation/submodules/niosLab2_nios2_gen2_0_cpu_test_bench.v|-work|cpu|
+!i113 1
+R10
+R11
+nnios@lab2_nios2_gen2_0_cpu_test_bench
