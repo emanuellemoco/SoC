@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Sep 09 17:30:11 2020
-Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Fitter Status : Successful - Sun Sep 13 18:43:33 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : Tutorial1
 Top-level Entity Name : LAB2_FPGA_NIOS
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 682 / 41,910 ( 2 % )
-Total registers : 933
+Logic utilization (in ALMs) : 677 / 41,910 ( 2 % )
+Total registers : 957
 Total pins : 7 / 499 ( 1 % )
 Total virtual pins : 0
 Total block memory bits : 273,408 / 5,662,720 ( 5 % )

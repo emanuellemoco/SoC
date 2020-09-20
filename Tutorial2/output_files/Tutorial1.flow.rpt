@@ -1,6 +1,6 @@
 Flow report for Tutorial1
-Wed Sep 09 17:30:49 2020
-Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Sun Sep 13 18:44:05 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
 ---------------------
@@ -21,9 +21,9 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -33,34 +33,33 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Sep 09 17:30:31 2020       ;
-; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
-; Revision Name                   ; Tutorial1                                   ;
-; Top-level Entity Name           ; LAB2_FPGA_NIOS                              ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CSXFC6D6F31C6                              ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 682 / 41,910 ( 2 % )                        ;
-; Total registers                 ; 933                                         ;
-; Total pins                      ; 7 / 499 ( 1 % )                             ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 273,408 / 5,662,720 ( 5 % )                 ;
-; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
-; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                               ;
-; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                               ;
-; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                               ;
-; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                               ;
-; Total PLLs                      ; 0 / 15 ( 0 % )                              ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
-+---------------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++---------------------------------+-------------------------------------------------+
+; Flow Status                     ; Successful - Sun Sep 13 18:43:51 2020           ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                   ; Tutorial1                                       ;
+; Top-level Entity Name           ; LAB2_FPGA_NIOS                                  ;
+; Family                          ; Cyclone V                                       ;
+; Device                          ; 5CSXFC6D6F31C6                                  ;
+; Timing Models                   ; Final                                           ;
+; Logic utilization (in ALMs)     ; 677 / 41,910 ( 2 % )                            ;
+; Total registers                 ; 957                                             ;
+; Total pins                      ; 7 / 499 ( 1 % )                                 ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 273,408 / 5,662,720 ( 5 % )                     ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                                 ;
+; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                                   ;
+; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                                   ;
+; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                                   ;
+; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                                   ;
+; Total PLLs                      ; 0 / 15 ( 0 % )                                  ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
++---------------------------------+-------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/09/2020 17:28:24 ;
+; Start date & time ; 09/13/2020 18:41:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Tutorial1           ;
 +-------------------+---------------------+
@@ -79,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+------------------------------------------------------------+---------------+----------------+------------+
 ; Assignment Name                     ; Value                                                      ; Default Value ; Entity Name    ; Section Id ;
 +-------------------------------------+------------------------------------------------------------+---------------+----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 136520656673360.159968330312628                            ; --            ; --             ; --         ;
+; COMPILER_SIGNATURE_ID               ; 136520656673360.160003329208350                            ; --            ; --             ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                         ; --            ; --             ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                          ; --            ; --             ; --         ;
 ; MISC_FILE                           ; niosLab2/synthesis/../niosLab2.cmp                         ; --            ; --             ; --         ;
@@ -104,24 +103,24 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:36     ; 1.0                     ; 4968 MB             ; 00:00:57                           ;
-; Fitter               ; 00:01:13     ; 1.1                     ; 6753 MB             ; 00:02:28                           ;
-; Assembler            ; 00:00:18     ; 1.0                     ; 4872 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:17     ; 1.6                     ; 5214 MB             ; 00:00:13                           ;
-; Total                ; 00:02:24     ; --                      ; --                  ; 00:03:46                           ;
+; Analysis & Synthesis ; 00:00:38     ; 1.0                     ; 1164 MB             ; 00:01:17                           ;
+; Fitter               ; 00:01:22     ; 1.1                     ; 2536 MB             ; 00:02:58                           ;
+; Assembler            ; 00:00:16     ; 1.0                     ; 991 MB              ; 00:00:08                           ;
+; Timing Analyzer      ; 00:00:13     ; 1.8                     ; 1271 MB             ; 00:00:16                           ;
+; Total                ; 00:02:29     ; --                      ; --                  ; 00:04:39                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-VFJNVOH  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-VFJNVOH  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-VFJNVOH  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-VFJNVOH  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++----------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; Fitter               ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; Assembler            ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
+; Timing Analyzer      ; soc-ssd          ; Ubuntu 18.04.5 ; 18         ; x86_64         ;
++----------------------+------------------+----------------+------------+----------------+
 
 
 ------------

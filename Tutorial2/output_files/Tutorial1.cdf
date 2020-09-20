@@ -1,4 +1,4 @@
-/* Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition */
+/* Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition */
 JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSXFC6D6F31) Path("C:/Users/emanu/Desktop/Insper/SoC/Tutorial2/output_files/") File("Tutorial1.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSXFC6D6F31) Path("/home/labarqcomp/Desktop/INSPER/SoC/Tutorial2/output_files/") File("Tutorial1.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
