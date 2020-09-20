@@ -27,70 +27,72 @@ architecture rtl of stepmotor is
 
    TYPE STATE_TYPE IS (s0, s1, s2, s3);
    SIGNAL state  : STATE_TYPE := s0;
-   signal timer_done : std_logic  := '0';
+   signal timerDone : std_logic  := '0';
    signal topCounter : integer range 0 to 50000000;
+	signal step: integer := 5000;
+   signal stepCounter: integer range 0 to 10000 := 0;
+   signal timeCounter: std_logic  := '0';
 
 BEGIN
 
   process(clk)
-  variable step: integer range 0 to 100 := 0;
-  variable stepCounter: integer range 0 to 100 := 0;
   
   BEGIN
+	
     if (rising_edge(clk))  then
-      case state IS
+		
+		if (timerDone = '1') then 
+			stepCounter <= stepCounter + 1;
+
+	 case state IS
       WHEN s0=>
-        if (timer_done = '1') then
           state <= s1;
-        end if;
-      WHEN s1=>
-        if (timer_done = '1') then
+      WHEN s1=>     
           state <= s2;
-        end if;
       WHEN s2=>
-        if (timer_done = '1') then
           state <= s3;
-        end if;
       WHEN s3=>
-        if (timer_done = '1') then
           state <= s0;
-        end if;
       when others=>
         state <= s0;
       END CASE;
     end if;
+	 end if;
   end process;
  
   PROCESS (state)
    BEGIN
-   if (dir = '1') then
-      CASE state IS
-        WHEN s0 =>
-          phases <= "0001";
-        WHEN s1 =>
-          phases <= "0010";
-        WHEN s2 =>
-          phases <= "0100";
-        when s3 =>
-          phases <= "1000";
-        when others =>
-          phases <= "0000";
-      END CASE;
-      else 
-      CASE state IS
-        WHEN s0 =>
-          phases <= "0000";
-        WHEN s1 =>
-          phases <= "1000";
-        WHEN s2 =>
-          phases <= "0100";
-        when s3 =>
-          phases <= "0010";
-        when others =>
-          phases <= "0001";
-      END CASE;
 
-      end if;
+		
+		if (dir = '1') then
+			CASE state IS
+			  WHEN s0 =>
+				 phases <= "0001";
+			  WHEN s1 =>
+				 phases <= "0010";
+			  WHEN s2 =>
+				 phases <= "0100";
+			  when s3 =>
+				 phases <= "1000";
+			  when others =>
+				 phases <= "0000";
+			END CASE;
+			else 
+			CASE state IS
+			  WHEN s0 =>
+				 phases <= "0000";
+			  WHEN s1 =>
+				 phases <= "1000";
+			  WHEN s2 =>
+				 phases <= "0100";
+			  when s3 =>
+				 phases <= "0010";
+			  when others =>
+				 phases <= "0001";
+			END CASE;
+
+			end if;
+
 
 
    END PROCESS;
@@ -107,15 +109,19 @@ BEGIN
     variable counter : integer range 0 to 50000000 := 0;
   begin
     if (rising_edge(clk)) then
+
+	 
       if (en = '1') then
-        if (counter < topCounter) then
-          counter := counter + 1;
-          timer_done  <= '0';
+			if (stepCounter < step) then
+			  if (counter < topCounter) then
+				 counter := counter + 1;
+				 timerDone  <= '0';
         else
           counter := 0;
-          timer_done  <= '1';
+          timerDone  <= '1';
         end if;
         end if;
+		  end if;
     end if;
   end process;
 

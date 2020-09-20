@@ -11,7 +11,7 @@ stepmotor_pio[3] << stepmotor:u1.phases[3]
 
 
 |toplevel|stepmotor:u1
-clk => timer_done.CLK
+clk => timerDone.CLK
 clk => counter[0].CLK
 clk => counter[1].CLK
 clk => counter[2].CLK
@@ -38,13 +38,27 @@ clk => counter[22].CLK
 clk => counter[23].CLK
 clk => counter[24].CLK
 clk => counter[25].CLK
+clk => stepCounter[0].CLK
+clk => stepCounter[1].CLK
+clk => stepCounter[2].CLK
+clk => stepCounter[3].CLK
+clk => stepCounter[4].CLK
+clk => stepCounter[5].CLK
+clk => stepCounter[6].CLK
+clk => stepCounter[7].CLK
+clk => stepCounter[8].CLK
+clk => stepCounter[9].CLK
+clk => stepCounter[10].CLK
+clk => stepCounter[11].CLK
+clk => stepCounter[12].CLK
+clk => stepCounter[13].CLK
 clk => state~5.DATAIN
-en => counter[4].ENA
 en => counter[3].ENA
 en => counter[2].ENA
 en => counter[1].ENA
 en => counter[0].ENA
-en => timer_done.ENA
+en => timerDone.ENA
+en => counter[4].ENA
 en => counter[5].ENA
 en => counter[6].ENA
 en => counter[7].ENA
