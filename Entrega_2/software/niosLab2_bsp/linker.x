@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'niosLab2'
  * SOPC Builder design path: ../../niosLab2.sopcinfo
  *
- * Generated: Wed Sep 16 14:39:13 BRT 2020
+ * Generated: Wed Sep 23 19:42:37 BRT 2020
  */
 
 /*
@@ -50,11 +50,13 @@
 
 MEMORY
 {
+    onchip_memory_dados : ORIGIN = 0x0, LENGTH = 128000
     reset : ORIGIN = 0x20000, LENGTH = 32
     onchip_memory2_0 : ORIGIN = 0x20020, LENGTH = 127968
 }
 
 /* Define symbols for each memory base-address */
+__alt_mem_onchip_memory_dados = 0x0;
 __alt_mem_onchip_memory2_0 = 0x20000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
@@ -307,7 +309,24 @@ SECTIONS
      *
      */
 
-    .onchip_memory2_0 LOADADDR (.bss) + SIZEOF (.bss) : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
+    .onchip_memory_dados : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
+    {
+        PROVIDE (_alt_partition_onchip_memory_dados_start = ABSOLUTE(.));
+        *(.onchip_memory_dados .onchip_memory_dados. onchip_memory_dados.*)
+        . = ALIGN(4);
+        PROVIDE (_alt_partition_onchip_memory_dados_end = ABSOLUTE(.));
+    } > onchip_memory_dados
+
+    PROVIDE (_alt_partition_onchip_memory_dados_load_addr = LOADADDR(.onchip_memory_dados));
+
+    /*
+     *
+     * This section's LMA is set to the .text region.
+     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
+     *
+     */
+
+    .onchip_memory2_0 LOADADDR (.onchip_memory_dados) + SIZEOF (.onchip_memory_dados) : AT ( LOADADDR (.onchip_memory_dados) + SIZEOF (.onchip_memory_dados) )
     {
         PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE(.));
         *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)

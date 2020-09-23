@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Sep 20, 2020 2:36:03 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1600623363684</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Sep 23, 2020 7:42:36 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1600900956333</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/labarqcomp/Desktop/INSPER/SoC/Entrega_2/software/niosLab2_bsp</BspGeneratedLocation>
-        <BspSettingsFile>settings.bsp</BspSettingsFile>
+        <BspSettingsFile>/home/labarqcomp/Desktop/INSPER/SoC/Entrega_2/software/niosLab2_bsp/settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../niosLab2.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_gen2_0</Cpu>
@@ -898,6 +898,12 @@
                 <Enabled>false</Enabled>
                 <Group xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         </Setting>
+        <MemoryMap>
+                <slaveDescriptor>onchip_memory_dados</slaveDescriptor>
+                <addressRange>0x00000000 - 0x0001F3FF</addressRange>
+                <addressSpan>128000</addressSpan>
+                <attributes>memory</attributes>
+        </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>onchip_memory2_0</slaveDescriptor>
                 <addressRange>0x00020000 - 0x0003F3FF</addressRange>

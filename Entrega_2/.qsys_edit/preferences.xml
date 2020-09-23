@@ -11,6 +11,7 @@
   </columns>
  </systemtable>
  <library expandedCategories="Library,Project" />
- <window width="1853" height="1053" x="1987" y="27" />
+ <window width="1920" height="1082" x="0" y="-2" />
  <hdlexample language="VHDL" />
+ <generation simulation="VHDL" synthesis="VHDL" />
 </preferences>

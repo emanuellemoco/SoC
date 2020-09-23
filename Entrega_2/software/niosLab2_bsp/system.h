@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'niosLab2'
  * SOPC Builder design path: ../../niosLab2.sopcinfo
  *
- * Generated: Wed Sep 16 14:39:13 BRT 2020
+ * Generated: Wed Sep 23 18:52:00 BRT 2020
  */
 
 /*
@@ -234,6 +234,35 @@
 
 
 /*
+ * onchip_memory_dados configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_onchip_memory_dados altera_avalon_onchip_memory2
+#define ONCHIP_MEMORY_DADOS_ALLOW_IN_SYSTEM_MEMORY_CONTENT_EDITOR 0
+#define ONCHIP_MEMORY_DADOS_ALLOW_MRAM_SIM_CONTENTS_ONLY_FILE 0
+#define ONCHIP_MEMORY_DADOS_BASE 0x0
+#define ONCHIP_MEMORY_DADOS_CONTENTS_INFO ""
+#define ONCHIP_MEMORY_DADOS_DUAL_PORT 0
+#define ONCHIP_MEMORY_DADOS_GUI_RAM_BLOCK_TYPE "AUTO"
+#define ONCHIP_MEMORY_DADOS_INIT_CONTENTS_FILE "niosLab2_onchip_memory_dados"
+#define ONCHIP_MEMORY_DADOS_INIT_MEM_CONTENT 1
+#define ONCHIP_MEMORY_DADOS_INSTANCE_ID "NONE"
+#define ONCHIP_MEMORY_DADOS_IRQ -1
+#define ONCHIP_MEMORY_DADOS_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define ONCHIP_MEMORY_DADOS_NAME "/dev/onchip_memory_dados"
+#define ONCHIP_MEMORY_DADOS_NON_DEFAULT_INIT_FILE_ENABLED 0
+#define ONCHIP_MEMORY_DADOS_RAM_BLOCK_TYPE "AUTO"
+#define ONCHIP_MEMORY_DADOS_READ_DURING_WRITE_MODE "DONT_CARE"
+#define ONCHIP_MEMORY_DADOS_SINGLE_CLOCK_OP 0
+#define ONCHIP_MEMORY_DADOS_SIZE_MULTIPLE 1
+#define ONCHIP_MEMORY_DADOS_SIZE_VALUE 128000
+#define ONCHIP_MEMORY_DADOS_SPAN 128000
+#define ONCHIP_MEMORY_DADOS_TYPE "altera_avalon_onchip_memory2"
+#define ONCHIP_MEMORY_DADOS_WRITABLE 1
+
+
+/*
  * pio_0 configuration
  *
  */
@@ -269,18 +298,18 @@
 #define PIO_1_BASE 0x41010
 #define PIO_1_BIT_CLEARING_EDGE_REGISTER 0
 #define PIO_1_BIT_MODIFYING_OUTPUT_REGISTER 0
-#define PIO_1_CAPTURE 0
+#define PIO_1_CAPTURE 1
 #define PIO_1_DATA_WIDTH 4
 #define PIO_1_DO_TEST_BENCH_WIRING 0
 #define PIO_1_DRIVEN_SIM_VALUE 0
-#define PIO_1_EDGE_TYPE "NONE"
+#define PIO_1_EDGE_TYPE "ANY"
 #define PIO_1_FREQ 50000000
 #define PIO_1_HAS_IN 1
 #define PIO_1_HAS_OUT 0
 #define PIO_1_HAS_TRI 0
-#define PIO_1_IRQ -1
-#define PIO_1_IRQ_INTERRUPT_CONTROLLER_ID -1
-#define PIO_1_IRQ_TYPE "NONE"
+#define PIO_1_IRQ 1
+#define PIO_1_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define PIO_1_IRQ_TYPE "EDGE"
 #define PIO_1_NAME "/dev/pio_1"
 #define PIO_1_RESET_VALUE 0
 #define PIO_1_SPAN 16

@@ -3,7 +3,7 @@
 # Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'niosLab2'
 # SOPC Builder design path: ../../niosLab2.sopcinfo
 #
-# Generated: Wed Sep 16 14:39:13 BRT 2020
+# Generated: Wed Sep 23 18:52:00 BRT 2020
 
 # DO NOT MODIFY THIS FILE
 #
@@ -45,6 +45,9 @@
 # Define memory regions for each memory connected to the CPU.
 # The cache attribute is specified which improves GDB performance
 # by allowing GDB to cache memory contents on the host.
+
+# onchip_memory_dados
+memory 0x0 0x1f400 cache
 
 # onchip_memory2_0
 memory 0x20000 0x3f400 cache
