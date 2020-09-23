@@ -26,7 +26,33 @@ entity peripheral_LED is
 end entity peripheral_LED;
 
 architecture rtl of peripheral_LED is
+
+
+component stepmotor is
+    port (
+        -- Gloabals
+        clk   : in  std_logic;
+
+        -- controls
+        en      : in std_logic;                     -- 1 on/ 0 of
+        dir     : in std_logic;                     -- 1 clock wise
+        vel     : in std_logic_vector(1 downto 0);  -- 00: low / 11: fast
+        phases  : out std_logic_vector(3 downto 0)
+  );
+end component;
+
+
 begin
+
+  -- addres |
+  --  0     | 31 ..............0
+  --        |                  en
+  --  1     |            ve1 vel0
+
+   u1 : stepmotor port map(
+
+
+   );
 
   process(clk)
   begin
