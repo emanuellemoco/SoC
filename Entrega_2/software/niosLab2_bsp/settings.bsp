@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Sep 23, 2020 7:42:36 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1600900956333</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>/home/labarqcomp/Desktop/INSPER/SoC/Entrega_2/software/niosLab2_bsp</BspGeneratedLocation>
-        <BspSettingsFile>/home/labarqcomp/Desktop/INSPER/SoC/Entrega_2/software/niosLab2_bsp/settings.bsp</BspSettingsFile>
+        <BspGeneratedTimeStamp>Sep 28, 2020 2:59:51 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1601315991041</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>/home/emanuelle/Desktop/INSPER/SoC/Entrega_2/software/niosLab2_bsp</BspGeneratedLocation>
+        <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../niosLab2.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_gen2_0</Cpu>

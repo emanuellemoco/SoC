@@ -6,7 +6,7 @@
 #include <io.h> /* Leiutura e escrita no Avalon */
 #include "sys/alt_irq.h"
 
-volatile int edge_capture, sw, vel;
+volatile int vel;
 volatile char on, dir ;
 
 int delay(int n){
@@ -18,9 +18,9 @@ int delay(int n){
 
 void handle_button_interrupts(void* context, alt_u32 id)
 {
+	int sw;
 	printf("entrei interrupt\n");
     volatile int* edge_capture_ptr = (volatile int*) context;
-    printf("-> %d\n",*edge_capture_ptr);
     *edge_capture_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(PIO_1_BASE);
     IOWR_ALTERA_AVALON_PIO_EDGE_CAP(PIO_1_BASE, 0);
 
@@ -34,6 +34,7 @@ void handle_button_interrupts(void* context, alt_u32 id)
 
 void init_pio()
 {
+	int edge_capture;
 	printf("entrei init_pio\n");
     void* edge_capture_ptr = (void*) &edge_capture;
     /* Enable first four interrupts. */
@@ -60,7 +61,7 @@ int main(void){
 
 
 	  if (on){
-		  if (phases <= 5){
+		  if (phases <= 3){
 			  if (dir) IOWR_32DIRECT(PIO_2_BASE, 0, 0x08 >> phases++);
 			  	  else  IOWR_32DIRECT(PIO_2_BASE, 0, 0x01 << phases++);
 				  usleep(sleep / (vel + 1));
