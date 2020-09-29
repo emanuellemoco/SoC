@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst niosLab2.peripheral_motor_0 -pg 1 -lvl 3 -y 250
+preplace inst niosLab2.pio_0 -pg 1 -lvl 3 -y 30
+preplace inst niosLab2.nios2_gen2_0.clock_bridge -pg 1
+preplace inst niosLab2.clk_0 -pg 1 -lvl 1 -y 350
+preplace inst niosLab2.nios2_gen2_0 -pg 1 -lvl 2 -y 160
+preplace inst niosLab2 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst niosLab2.onchip_memory2_0 -pg 1 -lvl 3 -y 350
+preplace inst niosLab2.nios2_gen2_0.reset_bridge -pg 1
+preplace inst niosLab2.nios2_gen2_0.cpu -pg 1
+preplace inst niosLab2.jtag_uart_0 -pg 1 -lvl 3 -y 150
+preplace netloc INTERCONNECT<net_container>niosLab2</net_container>(MASTER)nios2_gen2_0.instruction_master,(SLAVE)onchip_memory2_0.s1,(SLAVE)peripheral_motor_0.avalon_slave_0,(SLAVE)jtag_uart_0.avalon_jtag_slave,(MASTER)nios2_gen2_0.data_master,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)pio_0.s1) 1 1 2 300 300 700
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)pio_0.external_connection,(SLAVE)niosLab2.buts) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)clk_0.clk_in,(SLAVE)niosLab2.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)niosLab2.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)niosLab2.motor,(SLAVE)peripheral_motor_0.conduit_end) 1 0 3 NJ 120 NJ 120 NJ
+preplace netloc POINT_TO_POINT<net_container>niosLab2</net_container>(SLAVE)jtag_uart_0.irq,(MASTER)nios2_gen2_0.irq) 1 2 1 760
+preplace netloc FAN_OUT<net_container>niosLab2</net_container>(MASTER)clk_0.clk,(SLAVE)pio_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)peripheral_motor_0.clock,(SLAVE)nios2_gen2_0.clk,(SLAVE)jtag_uart_0.clk) 1 1 2 260 360 720
+preplace netloc INTERCONNECT<net_container>niosLab2</net_container>(SLAVE)nios2_gen2_0.reset,(MASTER)nios2_gen2_0.debug_reset_request,(MASTER)clk_0.clk_reset,(SLAVE)pio_0.reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)jtag_uart_0.reset,(SLAVE)peripheral_motor_0.reset) 1 1 2 280 320 740
+levelinfo -pg 1 0 50 970
+levelinfo -hier niosLab2 60 90 440 810 960
